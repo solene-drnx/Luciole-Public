@@ -1,0 +1,33 @@
+{
+  "name": "bibimbox",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-picker/picker": "^2.11.0",
+    "@rneui/themed": "^4.0.0-rc.8",
+    "expo": "^53.0.0",
+    "expo-blur": "~14.1.4",
+    "expo-file-system": "~18.1.10",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-modal": "^14.0.0-rc.1",
+    "react-native-reanimated": "~3.17.4",
+    "reanimated-color-picker": "^4.0.1",
+    "stream-browserify": "^3.0.0",
+    "tailwindcss": "^4.1.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "react-native-svg-transformer": "^1.5.0"
+  },
+  "private": true
+}

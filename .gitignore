@@ -95,3 +95,5 @@ node_modules/
 .env.*
 !.env.example
 secrets.*
+.idea
+.idea/
