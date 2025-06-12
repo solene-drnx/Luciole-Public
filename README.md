@@ -50,6 +50,8 @@ Ouvrez le `Serial Monitor` pour récupérer l'adresse IP locale de l'ESP32.
 Ensuite téléverser le [script final](ESP32/scriptESP32/scriptESP32.ino) dans l'ESP32 qui se situe dans le dossier `script ESP32`.
 
 ## 🔮 Application
+![image application](img/application.png)
+
 Il vous faudra les prérequis suivant pour installer l'application. 
 - Node.js et npm/yarn.
 - Expo CLI installé.
@@ -58,8 +60,25 @@ Il vous faudra les prérequis suivant pour installer l'application.
 2. Installe les dépendances : `npm install`
 3. Lance l'application : `npx expo start`
 
+Ensuite ajoute l'adresse IP local de l'ESP32 dans le fichier [config.js](Application/config/config.js) pour pouvoir faire en sorte que l'application communique avec l'ESP32.
+
 ## Assemblage
 
+Ensuite il vous faudra imprimer les fichiers 3D suivant. Il est important d'imprimer le diffuseur en blanc afin qu'il diffuse la lumière, pour le reste c'est comme vous voulez ✌️
 
+Pour assembler la lampe il faut que tu mette l'ESP32 et les branchement dans le [conteneur électronique](Fichiers%203D/conteneurElectronique.stl). Ensuite tu peux caler la [pièce qui fait le lien avec le cylindre](Fichiers%203D/lienConteneurCylindre.stl). Puis tu peux placer le [cylindre](Fichiers%203D/cylindreLED.stl) au dessus et coller le ruban de LED dessus.
+
+L'assemblage de ces trois pièces devrait ressembler à cela : 
+![assemblage](img/assemblage3pieces.png)
+
+Tu peux ensuite mettre les enceintes et l'amplificateur dans le cylindre. Tu peux ensuite mettre le [diffuseur](Fichiers%203D/diffuseur.stl) et le [cadre](Fichiers%203D/cadreEnBois.stl).
 
 ## Conclusion
+
+Et voila y'a plus qu'à alimenter ta lampe et elle devrait ressembler à ca 🥳
+
+![resultat final](img/resultat.png)
+
+Voila voila 🤗  
+Des bisous  
+Solène
